@@ -1,0 +1,28 @@
+html {
+  font-size: 62.5%;
+}
+
+:root {
+  --font-famyli: "IBM Plex Sans";
+}
+
+#light {
+  width: 281px;
+  display: block;
+}
+
+.logo {
+  width: 146.093px;
+  height: 32px;
+}
+
+#title {
+  color: #191826;
+  font-family: var(--font-famyli);
+  font-size: 4, 0rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 48px;
+  /* 120% */
+  letter-spacing: -0.455px;
+}
