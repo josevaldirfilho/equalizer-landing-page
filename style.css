@@ -19,10 +19,52 @@ html {
 #title {
   color: #191826;
   font-family: var(--font-famyli);
-  font-size: 4, 0rem;
+  font-size: 4.0rem;
   font-style: normal;
   font-weight: 700;
   line-height: 48px;
   /* 120% */
   letter-spacing: -0.455px;
+}
+
+#first-text {
+  color: #191826;
+  font-family: IBM Plex Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  /* 162.5% */
+}
+
+#smartphone {
+  display: block;
+  width: 208.972px;
+  height: 430px;
+}
+
+#bg-pattern-2 {
+  width: 280px;
+  height: 420px;
+}
+
+#title-2 {
+  color: #FCFAF9;
+  font-family: IBM Plex Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  /* 125% */
+}
+
+
+#second-text {
+  color: #FCFAF9;
+  font-family: IBM Plex Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  /* 155.556% */
 }
