@@ -7,16 +7,23 @@ html {
 }
 
 #light {
-  width: 281px;
+  width: 1031px;
   display: block;
+  position: absolute;
+  left: -477px;
+  top: -342px;
 }
 
 .logo {
+  margin-top: 39.99px;
+  margin-left: 24.15px;
   width: 146.093px;
   height: 32px;
 }
 
 #title {
+  margin-top: 64.01px;
+  margin-left: 24px;
   color: #191826;
   font-family: var(--font-famyli);
   font-size: 4.0rem;
@@ -28,6 +35,10 @@ html {
 }
 
 #first-text {
+  margin-left: 24px;
+  margin-top: 20px;
+  width: 327px;
+
   color: #191826;
   font-family: IBM Plex Sans;
   font-size: 16px;
@@ -38,14 +49,20 @@ html {
 }
 
 #smartphone {
+  position: relative;
   display: block;
   width: 208.972px;
   height: 430px;
+  align-content: center;
+  top: -96px;
+  z-index: 1;
 }
 
 #bg-pattern-2 {
   width: 280px;
   height: 420px;
+  position: relative;
+  top: -429px
 }
 
 #title-2 {
@@ -67,4 +84,14 @@ html {
   font-weight: 400;
   line-height: 28px;
   /* 155.556% */
+}
+
+#smartphone-patern {
+  margin-top: 166px;
+  border-radius: 12px;
+  background: #191826;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 380px;
 }
